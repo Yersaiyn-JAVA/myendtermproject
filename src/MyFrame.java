@@ -50,7 +50,13 @@ public class MyFrame extends JFrame implements ActionListener{
     @Override
     public void actionPerformed(ActionEvent e) {
         if(e.getSource()==button){
-            System.out.println("poo");
+            System.out.println("exit");
+        }
+        if(e.getSource()==button1){
+            System.out.println("professor");
+        }
+        if(e.getSource()==button2){
+            System.out.println("student");
         }
     }
 }
